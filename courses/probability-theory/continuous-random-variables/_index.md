@@ -2,6 +2,7 @@
 title: "Неперевні випадкові величини"
 author: "Кирило Байбула"
 output: html_document
+layout: single
 ---
 
 На відміну від дискретних випадкових величин, НВВ можуть приймати 
@@ -27,8 +28,8 @@ output: html_document
 $$
 F(x) = 
     \begin{cases}
-        0, & \text{якщо}\ x \lt 0 \\
-        \frac{x^2}{9}, & \text{якщо}\  0 \le x \le 3 \\
+        0, & \text{якщо}\ x \lt 0 \\\
+        \frac{x^2}{9}, & \text{якщо}\  0 \le x \le 3 \\\
         1, & \text{якщо}\ x \gt 3
     \end{cases}
 $$
@@ -109,13 +110,13 @@ $F(b)-F(a)$ - пуста робота.
 $$
 f(x) = F'(x) = 
 \begin{cases}
-    (0)', & \text{якщо}\ x \lt 0 \\
-    (\frac{x^2}{9})', & \text{якщо}\  0 \le x \le 3 \\
+    (0)', & \text{якщо}\ x \lt 0 \\\
+    (\frac{x^2}{9})', & \text{якщо}\  0 \le x \le 3 \\\
     (1)', & \text{якщо}\ x \gt 3
 \end{cases} =
 \begin{cases}
-    0, & \text{якщо}\ x \lt 0 \\
-    \frac{2x}{9 }, & \text{якщо}\  0 \le x \le 3 \\
+    0, & \text{якщо}\ x \lt 0 \\\
+    \frac{2x}{9 }, & \text{якщо}\  0 \le x \le 3 \\\
     0, & \text{якщо}\ x \gt 3
 \end{cases}
 $$

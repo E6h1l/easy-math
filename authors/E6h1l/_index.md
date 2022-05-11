@@ -3,9 +3,8 @@ name: "Дмитро Пристайчук"
 nick: "E6h1l"
 social:
   github: https://github.com/E6h1l
-  email: test@email.com
-  telegram: some-nickname
+  email: dmytro.prist@email.com
 layout: author
 ---
 
-Тут має бути щось особисте про себе, якщо  автор цього хоче
+Я студент КНУ ім.Шевченка факультету Комп'ютерних наук і кібернетики спеціальності прикладна математика
